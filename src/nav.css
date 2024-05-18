@@ -1,0 +1,35 @@
+.nav-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+.nav-left {
+  flex-grow: 1; /* Adjust as necessary */
+  justify-content: flex-start; /* Ensure it aligns to the start */
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end; /* Ensure it aligns to the end */
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}

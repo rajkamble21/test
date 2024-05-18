@@ -1,0 +1,62 @@
+# dependencies
+/node_modules
+package-lock.json
+yarn.lock
+npm-debug.log
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Devskiller
+test-results.xml
+
+### Devskiller entries
+*.iws
+*.launch
+.externalToolBuilders/
+.DS_Store
+__MACOSX/
+.idea/
+.nb-gradle/
+.project
+.settings/
+atlassian-ide-plugin.xml
+nbactions.xml
+nbbuild/
+nbdist/
+nbproject/private/
+node_modules
+.npm-debug.log
+tmp
+
+
+
+### *** required entries below ***
+###
+### Please do not add anything below this line, your changes will be overwritten
+###
+.history/
+### VisualStudioCode ###
+!.vscode/490Fgg6uPJedVf4qVGHhl7
+*.code-workspace
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide

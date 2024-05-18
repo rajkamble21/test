@@ -1,0 +1,68 @@
+/* loader.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #83b0e2;
+}
+
+.wrapper {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+/* Set appropriate position and animation for item */
+.wrapper .item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  animation: rotate 2s infinite;
+}
+
+/* Set appropriate sizing for block items */
+.wrapper .b1 {
+  width: 120px;
+  height: 120px;
+  border-color: #4a69bd;
+}
+
+.wrapper .b2 {
+  width: 100px;
+  height: 100px;
+  border-color: #f6b93b;
+}
+
+.wrapper .b3 {
+  width: 80px;
+  height: 80px;
+  border-color: #2ecc71;
+}
+
+.wrapper .b4 {
+  width: 60px;
+  height: 60px;
+  border-color: #34495e;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(-180deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
